@@ -5,8 +5,8 @@
     padding: 0;
 }
 
-.container {
-    max-width: 1172px;
-    margin: 0 auto;
+body {
+    max-width: 1922px;
+    /* margin: 0 auto; */
 }
 
