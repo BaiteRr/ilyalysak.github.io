@@ -3,23 +3,86 @@
     padding: 0;
 }
 
-.container {
-    max-width: 1172px;
-    margin: 0 auto;
+body {
+    max-width: 1922px;
+    /* margin: 0 auto; */
 }
 
 
-.foo {
+.header {
   display: flex;
-  align-items: center;
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 40px;
-  color: blue;
-  vertical-align: middle; }
+  justify-content: space-around; }
+
+.logo {
+  display: flex; }
+  .logo__name {
+    width: 109px;
+    height: 22px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 8px;
+    color: #040404;
+    text-transform: uppercase;
+    margin: 17px 0; }
+  .logo__text {
+    width: 198px;
+    height: 25px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin: 18px 0 13px 13px; }
+
+.phone {
+  display: flex; }
+  .phone__number {
+    width: 228px;
+    height: 24px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin: 18px 0 14px 0; }
+  .phone__button {
+    width: 130px;
+    height: 30px;
+    background-image: linear-gradient(to top, #ff4f58, #fd7048);
+    margin: 15px 0 11px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #005FA3;
+    text-align: center;
+    user-select: none;
+    cursor: pointer; }
+    .phone__button a {
+      text-decoration: none;
+      color: white; }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center; } }
+
+.container {
+  background-image: url(a94db55a4f241c4b1e45640b803537b2.png);
+  width: 1920px;
+  height: 797px; }
 
 
 /*# sourceMappingURL=main.css.map*/
