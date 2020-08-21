@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///style.css"],"names":[],"mappings":"AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,iBAAiB;IACjB,cAAc;AAClB","file":"main.css","sourcesContent":["@import \"~normalize.css\";\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.container {\r\n    max-width: 1172px;\r\n    margin: 0 auto;\r\n}\r\n\r\n"],"sourceRoot":""}
