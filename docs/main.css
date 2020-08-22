@@ -330,7 +330,6 @@ body {
   .container {
     background: url(6a39b9aa13ed3d36c187f9853368286e.png);
     height: 1024px;
-    width: 384px;
     background-repeat: no-repeat; }
   #menu__toggle {
     opacity: 0; }
@@ -467,9 +466,6 @@ body {
         font-size: 23px; } }
 
 @media screen and (max-width: 414px) {
-  .container {
-    background-image: url(be92c6621ea0879259215616c97ec501.png);
-    background-repeat: no-repeat; }
   .menu__btn {
     width: 20px; }
   .menu__box {
@@ -493,7 +489,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 208px;
+    width: 100%;
     height: 180px; }
   .logo {
     display: flex;
