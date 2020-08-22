@@ -96,210 +96,134 @@
         text-decoration: none
         color: white
 
+.border
+    position: absolute
+    top: 114px
+    clip-path: polygon(22% 0, 20% 0, 0 100%, 2% 99%)
+    left: 351px
+    width: 174px
+    height: 195px
+    background-color: white
 
-@media screen and (max-width: 414px) 
-    .menu__btn
-        margin-right: 10px
-
-    #menu__toggle 
-        opacity: 0
-
-    .menu__btn 
+.nameBg
+    position: absolute
+    top: 114px
+    left: 379px
+    width: 746px
+    height: 110px
+    opacity: 0.7
+    box-shadow: -3.5px 3.5px 16px 0 rgba(0, 0, 0, 0.3)
+    background-color: #ffffff
+    clip-path: polygon(3% 0, 78% 0%, 75% 100%, 0% 100%)
+    &__name
         display: flex
         align-items: center
-        position: fixed
-        top: 20px
-        left: 20px
-        width: 26px
-        height: 26px
-        cursor: pointer
-        z-index: 1
-  
-    .menu__btn > span,
-    .menu__btn > span::before,
-    .menu__btn > span::after 
-        display: block
-        position: absolute
-        width: 100%
-        height: 2px
-        background-color: #616161
-  
-    .menu__btn > span::before 
-        content: ''
-        top: -8px
-  
-    .menu__btn > span::after 
-        content: ''
-        top: 8px
+        justify-content: center
+        width: 577px
+        height: 110px
+        font-family: 'IntroRust', sans-serif
+        font-size: 90.5px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: 0.76
+        letter-spacing: -1.81px
+        color: #000000
+        text-transform: uppercase
 
-
-    .menu__box      
-        width: 180px !important
-  
-
-    .menu__item            
-        display: block
-        padding: 0 0 0 0
-        color: #333
-        font-family: 'ProximaNova', sans-serif
-        font-size: 15px !important
-        font-weight: 600
-        text-decoration: none
-
-    .menu   
-        &__main
-            margin-top: 33px
-            padding: 25px 0 25px 0
-            width: 93px !important
-            height: auto        
-        &__сhildren
-            margin: 0
-            padding: 10px
-            width: 153px
-            height: auto        
-        &__bedroom
-            margin: 0
-            padding: 10px
-            width: 157px
-            height: auto       
-        &__kitchen
-            margin: 0
-            padding: 10px
-            width: 153px
-            height: auto        
-        &__contacts
-            margin: 0
-            padding: 10px
-            width: 153px
-            height: auto
-        
-
-
-  
-    #menu__toggle:checked ~ .menu__btn > span 
-        transform: rotate(45deg)
-
-    #menu__toggle:checked ~ .menu__btn > span::before 
-        top: 0
-        transform: rotate(0)
-
-    #menu__toggle:checked ~ .menu__btn > span::after 
-        top: 0
-        transform: rotate(90deg)
-
-    #menu__toggle:checked ~ .menu__box 
-        visibility: visible
-        left: 0
-
-
-
-@media screen and (max-width: 768px) 
-    .container
-        background: url("../img/ipadbed.png")
-        height: 1024px
-        background-repeat: no-repeat
-
-
-    #menu__toggle 
-        opacity: 0
-
-    .menu__btn 
+.aboutBg
+    position: absolute
+    top: 237px
+    left: 367px
+    width: 370px
+    height: 72px
+    opacity: 0.7
+    background-color: #ffffff
+    clip-path: polygon(3% 0, 78% 0%, 75% 100%, 0% 100%)
+    &__about
         display: flex
         align-items: center
-        position: fixed
-        top: 20px
-        left: 20px
-        width: 26px
-        height: 26px
-        cursor: pointer
-        z-index: 1
-  
-    .menu__btn > span,
-    .menu__btn > span::before,
-    .menu__btn > span::after 
-        display: block
-        position: absolute
-        width: 100%
-        height: 2px
-        background-color: #616161
-  
-    .menu__btn > span::before 
-        content: ''
-        top: -8px
-  
-    .menu__btn > span::after 
-        content: ''
-        top: 8px
+        justify-content: center
+        width: 278px
+        height: 63px
+        font-family: 'IntroRust', sans-serif
+        font-size: 36px
+        font-weight: 900
+        font-stretch: normal
+        font-style: italic
+        line-height: normal
+        letter-spacing: normal
+        color: #000000
+    &__border
+        margin: -5px 0 0 28px
+        width: 217px
+        height: 0px
+        border: 2px solid black    
+
+.sizeBg
+    display: flex
+    position: absolute
+    width: 205px
+    height: 50px
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.75)
+    background-image: linear-gradient(to top, #2aeb2a, #007500)
+    clip-path: polygon(3.5% 0, 78% 0%, 75% 100%, 0% 100%)
+    top: 256px
+    left: 661px
+
+    .size
+        width: 160px
+        display: flex
+        align-items: center
+        justify-content: center
+        &__from
+            margin-top: 11px
+            width: 22px
+            height: 15px
+            font-family: 'IntroRust', sans-serif
+            font-size: 16px
+            font-weight: bold
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: 1px
+            text-align: center
+            color: #ffffff
+        &__size
+            width: 81px
+            height: 52px
+            font-family: 'IntroRust', sans-serif
+            font-size: 36px
+            font-weight: 900
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: normal
+            text-align: center
+            color: #ffffff
+            -webkit-background-clip: text
+        &__area
+            margin-top: 11px
+            width: 22px
+            height: 15px
+            font-family: 'IntroRust', sans-serif
+            font-size: 16px
+            font-weight: bold
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: 1px
+            text-align: center
+            color: #ffffff
+            sub
+                bottom: -0.1em
+    
+            
 
 
-    .menu__box 
-        display: block
-        position: fixed
-        visibility: hidden
-        top: 0
-        left: -100%
-        width: 300px
-        height: 100%
-        margin: 0
-        padding: 80px 0
-        list-style: none
-        text-align: center
-        background-color: #ECEFF1
-        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
-  
 
-    .menu__item            
-        display: block
-        padding: 0 0 0 0
-        color: #333
-        font-family: 'ProximaNova', sans-serif
-        font-size: 20px
-        font-weight: 600
-        text-decoration: none
 
-    .menu   
-        &__main
-            margin-top: 33px
-            padding: 25px 0 25px 0
-            width: 153px
-            height: auto
+
 
         
-        &__сhildren
-            padding: 10px
-            width: 153px
-            height: auto
         
-        &__bedroom
-            padding: 10px
-            width: 157px
-            height: auto
-       
-        &__kitchen
-            padding: 10px
-            width: 153px
-            height: auto
-        
-        &__contacts
-            padding: 10px
-            width: 153px
-            height: auto
-        
-
-
-  
-    #menu__toggle:checked ~ .menu__btn > span 
-        transform: rotate(45deg)
-
-    #menu__toggle:checked ~ .menu__btn > span::before 
-        top: 0
-        transform: rotate(0)
-
-    #menu__toggle:checked ~ .menu__btn > span::after 
-        top: 0
-        transform: rotate(90deg)
-
-    #menu__toggle:checked ~ .menu__box 
-        visibility: visible
-        left: 0
-
