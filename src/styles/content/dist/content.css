@@ -153,7 +153,7 @@
     display: block;
     padding: 0 0 0 0;
     color: #333;
-    font-family: "Roboto", sans-serif;
+    font-family: "ProximaNova", sans-serif;
     font-size: 15px !important;
     font-weight: 600;
     text-decoration: none;
@@ -211,7 +211,9 @@
 }
 @media screen and (max-width: 768px) {
   .container {
-    background-image: url("../img/bed.png") center no-repeat fixed;
+    background: url("../img/ipadbed.png");
+    height: 1024px;
+    background-repeat: no-repeat;
   }
 
   #menu__toggle {
@@ -270,7 +272,7 @@
     display: block;
     padding: 0 0 0 0;
     color: #333;
-    font-family: "Roboto", sans-serif;
+    font-family: "ProximaNova", sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
