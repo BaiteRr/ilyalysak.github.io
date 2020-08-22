@@ -69,13 +69,13 @@ body {
     user-select: none;
     cursor: pointer; }
     .phone__button a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-decoration: none;
       color: white;
       width: 131px;
-      height: 32px;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
+      height: 32px; }
 
 .container {
   background-image: url(a94db55a4f241c4b1e45640b803537b2.png);
@@ -599,6 +599,158 @@ body {
         font-size: 17px; }
       .sizeBg .size__area {
         font-size: 11px; } }
+
+.footer {
+  width: 1922px;
+  height: 279px;
+  opacity: 0.8;
+  background-color: #ffffff;
+  margin-top: 104px; }
+
+.block {
+  display: flex;
+  width: 1128px;
+  height: 279px;
+  margin: 0 auto; }
+
+.print {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  margin-right: 41px; }
+  .print__img {
+    background-image: url(7407c5ca54e515f9261c5662c50a6e84.png);
+    width: 98px;
+    height: 98px;
+    margin: 13px auto 12px; }
+  .print__title {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    font-weight: bold; }
+  .print__subtitle {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px; }
+
+.any {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  margin-right: 41px; }
+  .any__img {
+    background-image: url(4144465ed698eed33dd4490a9cbc3bb1.png);
+    width: 98px;
+    height: 98px;
+    margin: 13px auto 12px; }
+  .any__title {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    font-weight: bold; }
+  .any__subtitle {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px; }
+
+.made {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  margin-right: 53px; }
+  .made__img {
+    background-image: url(a11ee67f9eca94d5ed5164bd993a9572.png);
+    width: 98px;
+    height: 98px;
+    margin: 13px auto 12px; }
+  .made__title {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    font-weight: bold; }
+  .made__subtitle {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px; }
+
+.unintermediated {
+  display: flex;
+  flex-direction: column;
+  width: 245px; }
+  .unintermediated__img {
+    background-image: url(a11ee67f9eca94d5ed5164bd993a9572.png);
+    width: 98px;
+    height: 98px;
+    margin: 20px auto 19px; }
+  .unintermediated__title {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    font-weight: bold; }
+  .unintermediated__subtitle {
+    width: 245px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px; }
 
 @font-face {
     font-family: 'Lato';
