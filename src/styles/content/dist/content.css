@@ -1,0 +1,324 @@
+@charset "UTF-8";
+.container {
+  background-image: url("../img/bed.png");
+  width: 1920px;
+  height: 797px;
+}
+
+#menu__toggle {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 35px;
+  opacity: 0.6;
+  background-color: #000000;
+}
+.menu__border {
+  width: 0;
+  height: 14px;
+  border: 1px solid #FFFFFF;
+}
+.menu__main {
+  width: 73px;
+  height: 14px;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 64px;
+  text-decoration: none;
+  color: white;
+}
+.menu__сhildren {
+  width: 107px;
+  height: 14px;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 64px;
+  text-decoration: none;
+  color: white;
+}
+.menu__bedroom {
+  width: 109px;
+  height: 14px;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 64px 0 63px;
+  text-decoration: none;
+  color: white;
+}
+.menu__kitchen {
+  text-transform: uppercase;
+  width: 88px;
+  height: 14px;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  margin: 0 65px 0 64px;
+  text-decoration: none;
+  color: white;
+}
+.menu__contacts {
+  text-transform: uppercase;
+  width: 76px;
+  height: 14px;
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  margin-left: 67px;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 414px) {
+  .menu__btn {
+    margin-right: 10px;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+
+  .menu__box {
+    width: 180px !important;
+  }
+
+  .menu__item {
+    display: block;
+    padding: 0 0 0 0;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px !important;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .menu__main {
+    margin-top: 33px;
+    padding: 25px 0 25px 0;
+    width: 93px !important;
+    height: auto;
+  }
+  .menu__сhildren {
+    margin: 0;
+    padding: 10px;
+    width: 153px;
+    height: auto;
+  }
+  .menu__bedroom {
+    margin: 0;
+    padding: 10px;
+    width: 157px;
+    height: auto;
+  }
+  .menu__kitchen {
+    margin: 0;
+    padding: 10px;
+    width: 153px;
+    height: auto;
+  }
+  .menu__contacts {
+    margin: 0;
+    padding: 10px;
+    width: 153px;
+    height: auto;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    background-image: url("../img/bed.png") center no-repeat fixed;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu__item {
+    display: block;
+    padding: 0 0 0 0;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .menu__main {
+    margin-top: 33px;
+    padding: 25px 0 25px 0;
+    width: 153px;
+    height: auto;
+  }
+  .menu__сhildren {
+    padding: 10px;
+    width: 153px;
+    height: auto;
+  }
+  .menu__bedroom {
+    padding: 10px;
+    width: 157px;
+    height: auto;
+  }
+  .menu__kitchen {
+    padding: 10px;
+    width: 153px;
+    height: auto;
+  }
+  .menu__contacts {
+    padding: 10px;
+    width: 153px;
+    height: auto;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+}
