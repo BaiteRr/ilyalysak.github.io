@@ -63,17 +63,19 @@ body {
     height: 30px;
     background-image: linear-gradient(to top, #ff4f58, #fd7048);
     margin: 15px 0 11px 17px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: #005FA3;
     text-align: center;
     user-select: none;
     cursor: pointer; }
     .phone__button a {
       text-decoration: none;
-      color: white; }
+      color: white;
+      width: 131px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
 
 .container {
   background-image: url(a94db55a4f241c4b1e45640b803537b2.png);
@@ -292,6 +294,38 @@ body {
       .sizeBg .size__area sub {
         bottom: -0.1em; }
 
+.idea {
+  width: 297px;
+  height: 42px;
+  font-family: 'IntroRust', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 263px 0 0 392px;
+  text-transform: uppercase; }
+
+.look {
+  width: 225px;
+  height: 45px;
+  border-radius: 4px;
+  border: solid 2px #ffffff;
+  background-image: linear-gradient(to top, #ff4f58, #fd7048);
+  text-transform: uppercase;
+  margin: 25px 0 0 394px; }
+  .look a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 224px;
+    height: 49px; }
+
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -302,8 +336,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 319px;
-    margin-left: 66px; }
+    width: 449px;
+    margin-left: 125px; }
     .logo__name {
       width: 89px;
       font-size: 22px;
@@ -316,8 +350,8 @@ body {
   .phone {
     align-items: center;
     justify-content: center;
-    width: 319px;
-    margin-left: 66px; }
+    width: 397px;
+    margin-left: 144px; }
     .phone__number {
       margin: 0;
       width: 299px;
@@ -463,7 +497,15 @@ body {
         width: 50px;
         height: 52px;
         margin-top: 24px;
-        font-size: 23px; } }
+        font-size: 23px; }
+  .idea {
+    margin: 0;
+    padding: 349px 0 0 33px;
+    color: black;
+    font-weight: bold;
+    font-size: 32px; }
+  .look {
+    margin: 77px 0 0 40px; } }
 
 @media screen and (max-width: 414px) {
   .menu__btn {
@@ -518,7 +560,7 @@ body {
     .phone__button {
       height: 28px;
       font-size: 12px;
-      width: 110px;
+      width: 136px;
       margin-left: 0; }
   .border {
     display: none; }
