@@ -336,8 +336,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 449px;
-    margin-left: 125px; }
+    width: 318px;
+    margin-left: 61px; }
     .logo__name {
       width: 89px;
       font-size: 22px;
@@ -350,17 +350,17 @@ body {
   .phone {
     align-items: center;
     justify-content: center;
-    width: 397px;
-    margin-left: 144px; }
+    width: 348px;
+    margin-left: 102px; }
     .phone__number {
       margin: 0;
       width: 299px;
-      font-size: 30px;
+      font-size: 25px;
       height: 17px; }
     .phone__button {
       height: 40px;
       font-size: 14px;
-      margin-right: 15px; }
+      margin-right: 41px; }
   #menu__toggle {
     opacity: 0; }
   .menu__main {
@@ -412,6 +412,10 @@ body {
     text-align: center;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2); }
+  .container {
+    background-image: url(de60345f4a73c3d9deb7803461a23e3e.png);
+    background-repeat: no-repeat;
+    width: 778px !important; }
   .menu__item {
     display: block;
     padding: 0 0 0 0;
@@ -496,7 +500,7 @@ body {
         font-size: 23px; }
   .idea {
     margin: 0;
-    padding: 349px 0 0 33px;
+    padding: 264px 0 0 33px;
     color: black;
     font-weight: bold;
     font-size: 32px; }
@@ -507,10 +511,10 @@ body {
     margin-top: 279px !important;
     opacity: 1 !important; }
   .block {
-    padding: 90px 0 0 10px !important;
+    padding: 25px 0 0 10px !important;
     flex-wrap: wrap;
     margin: 0 !important;
-    width: 768px !important; }
+    width: 767px !important; }
   .print {
     flex-direction: row !important;
     width: 384px !important;
@@ -521,7 +525,7 @@ body {
       font-size: 14px !important; }
     .print__subtitle {
       font-size: 14px !important;
-      margin: 22px 0 0 -245px !important; }
+      margin: 22px 0 0 -245px; }
   .any {
     flex-direction: row !important;
     width: 384px !important;
@@ -556,7 +560,7 @@ body {
       font-size: 14px !important;
       margin: 22px 0 0 -245px !important; }
   .footer {
-    width: 768px; } }
+    width: 767px !important; } }
 
 @media screen and (max-width: 414px) {
   .menu__btn {
@@ -583,13 +587,16 @@ body {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    height: 180px; }
+    height: 235px; }
+  .footer {
+    width: 414px !important;
+    height: 680px !important; }
   .logo {
     display: flex;
     flex-direction: column;
     width: 208px;
     align-items: center;
-    margin: 0; }
+    margin-left: -153px; }
     .logo__name {
       height: 26px;
       width: 140px; }
@@ -604,7 +611,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    width: 208px; }
+    width: 208px;
+    margin-left: -86px;
+    margin-top: -67px; }
     .phone__number {
       height: 15px;
       font-size: 17px; }
@@ -613,18 +622,22 @@ body {
       font-size: 12px;
       width: 136px;
       margin-left: 0; }
+  .container {
+    background-image: url(f7cd87b526ace985b8eab231c3d030e5.png) !important;
+    width: 798px !important;
+    width: 414px !important; }
   .border {
     display: none; }
   .nameBg {
     width: 150px;
     height: 25px;
-    top: 203px; }
+    top: 239px; }
     .nameBg__name {
       width: 111px;
       height: 25px;
       font-size: 20px; }
   .aboutBg {
-    top: 236px;
+    top: 269px;
     left: 15px;
     width: 160px;
     height: 33px; }
@@ -636,7 +649,7 @@ body {
       margin: -4px 0 0 9px;
       width: 98px; }
   .sizeBg {
-    top: 275px;
+    top: 308px;
     left: 47px;
     width: 117px;
     height: 23px; }
@@ -650,54 +663,62 @@ body {
         font-size: 17px; }
       .sizeBg .size__area {
         font-size: 11px; }
+  .idea {
+    width: 181px;
+    height: 68px;
+    padding-top: 276px;
+    font-size: 23px; }
+  .look {
+    width: 139px;
+    height: 27px; }
+    .look a {
+      width: 140px;
+      height: 28px;
+      font-size: 11px; }
   .block {
-    width: 704px !important;
-    margin-left: 100px !important;
+    width: 399px !important;
+    margin-left: 0 !important;
     padding-top: 60px !important; }
   .print {
-    width: 270px !important;
-    height: 155px !important; }
+    flex-direction: column !important;
+    width: 200px !important; }
     .print__img {
-      width: 160px !important;
-      background-repeat: no-repeat; }
+      margin: 12px auto 12px !important; }
     .print__title {
-      width: 310px !important;
-      margin-left: -17px; }
+      width: 200px !important; }
     .print__subtitle {
-      margin-left: -182px !important; }
+      width: 200px !important;
+      margin: 22px 0 0 0 !important; }
   .any {
-    width: 270px !important;
-    height: 155px !important; }
+    flex-direction: column !important;
+    width: 200px !important; }
     .any__img {
-      width: 160px !important;
-      background-repeat: no-repeat; }
+      margin: 12px auto 12px !important; }
     .any__title {
-      width: 310px !important;
-      margin-left: -17px; }
+      width: 200px !important; }
     .any__subtitle {
-      margin-left: -182px !important; }
+      width: 200px !important;
+      margin: 22px 0 0 0 !important; }
   .made {
-    width: 270px !important;
-    height: 155px !important; }
+    flex-direction: column !important;
+    width: 200px !important; }
     .made__img {
-      width: 160px !important;
-      background-repeat: no-repeat; }
+      margin: 12px auto 12px !important; }
     .made__title {
-      width: 310px !important;
-      margin-left: -17px; }
+      width: 200px !important; }
     .made__subtitle {
-      margin-left: -182px !important; }
+      width: 200px !important;
+      margin: 22px 0 0 0 !important; }
   .unintermediated {
-    width: 270px !important;
-    height: 155px !important; }
+    flex-direction: column !important;
+    width: 200px !important; }
     .unintermediated__img {
-      width: 160px !important;
-      background-repeat: no-repeat; }
+      margin: 12px auto 12px !important; }
     .unintermediated__title {
-      width: 310px !important;
-      margin-left: -17px; }
+      width: 200px !important; }
     .unintermediated__subtitle {
-      margin-left: -182px !important; } }
+      width: 200px !important;
+      margin: 22px 0 0 0 !important; } }
 
 .footer {
   width: 1922px;
