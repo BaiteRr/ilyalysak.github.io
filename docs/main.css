@@ -77,14 +77,15 @@ body {
 
 @media screen and (max-width: 414px) {
   .header {
-    width: 662px; }
+    width: 535px; }
   .logo__name {
     margin-left: 45px; } }
 
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    width: 769px; }
   .logo__text {
     width: 235px;
     font-size: 17px; } }
@@ -185,6 +186,128 @@ body {
     text-decoration: none;
     color: white; }
 
+.border {
+  position: absolute;
+  top: 114px;
+  clip-path: polygon(22% 0, 20% 0, 0 100%, 2% 99%);
+  left: 351px;
+  width: 174px;
+  height: 195px;
+  background-color: white; }
+
+.nameBg {
+  position: absolute;
+  top: 114px;
+  left: 379px;
+  width: 746px;
+  height: 110px;
+  opacity: 0.7;
+  box-shadow: -3.5px 3.5px 16px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  clip-path: polygon(3% 0, 78% 0%, 75% 100%, 0% 100%); }
+  .nameBg__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 577px;
+    height: 110px;
+    font-family: 'IntroRust', sans-serif;
+    font-size: 90.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.76;
+    letter-spacing: -1.81px;
+    color: #000000;
+    text-transform: uppercase; }
+
+.aboutBg {
+  position: absolute;
+  top: 237px;
+  left: 367px;
+  width: 370px;
+  height: 72px;
+  opacity: 0.7;
+  background-color: #ffffff;
+  clip-path: polygon(3% 0, 78% 0%, 75% 100%, 0% 100%); }
+  .aboutBg__about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 278px;
+    height: 63px;
+    font-family: 'IntroRust', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000; }
+  .aboutBg__border {
+    margin-top: -5px;
+    width: 217px;
+    height: 0px;
+    border: 2px solid black;
+    margin-left: 28px; }
+
+.sizeBg {
+  display: flex;
+  position: absolute;
+  width: 205px;
+  height: 50px;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(to top, #2aeb2a, #007500);
+  clip-path: polygon(3.5% 0, 78% 0%, 75% 100%, 0% 100%);
+  top: 256px;
+  left: 661px; }
+  .sizeBg .size {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .sizeBg .size__from {
+      margin-top: 11px;
+      width: 22px;
+      height: 15px;
+      font-family: 'IntroRust', sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #ffffff; }
+    .sizeBg .size__size {
+      width: 81px;
+      height: 52px;
+      font-family: 'IntroRust', sans-serif;
+      font-size: 36px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      -webkit-background-clip: text; }
+    .sizeBg .size__area {
+      margin-top: 11px;
+      width: 22px;
+      height: 15px;
+      font-family: 'IntroRust', sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #ffffff; }
+      .sizeBg .size__area sub {
+        bottom: -0.1em; }
+
 @media screen and (max-width: 414px) {
   .menu__btn {
     margin-right: 10px; }
@@ -193,7 +316,7 @@ body {
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 20px;
     width: 26px;
@@ -265,19 +388,20 @@ body {
   .container {
     background: url(6a39b9aa13ed3d36c187f9853368286e.png);
     height: 1024px;
+    width: 768px;
     background-repeat: no-repeat; }
   #menu__toggle {
     opacity: 0; }
   .menu__btn {
+    z-index: 2;
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 20px;
-    left: 20px;
+    position: absolute;
+    top: 40px;
+    left: 45px;
     width: 26px;
     height: 26px;
-    cursor: pointer;
-    z-index: 1; }
+    cursor: pointer; }
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -293,6 +417,7 @@ body {
     content: '';
     top: 8px; }
   .menu__box {
+    z-index: 1;
     display: block;
     position: fixed;
     visibility: hidden;
@@ -314,27 +439,29 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none; }
-  .menu__main {
-    margin-top: 33px;
-    padding: 25px 0 25px 0;
-    width: 153px;
-    height: auto; }
-  .menu__сhildren {
-    padding: 10px;
-    width: 153px;
-    height: auto; }
-  .menu__bedroom {
-    padding: 10px;
-    width: 157px;
-    height: auto; }
-  .menu__kitchen {
-    padding: 10px;
-    width: 153px;
-    height: auto; }
-  .menu__contacts {
-    padding: 10px;
-    width: 153px;
-    height: auto; }
+  .menu {
+    opacity: 0.9; }
+    .menu__main {
+      margin-top: 33px;
+      padding: 25px 0 25px 0;
+      width: 153px;
+      height: auto; }
+    .menu__сhildren {
+      padding: 10px;
+      width: 153px;
+      height: auto; }
+    .menu__bedroom {
+      padding: 10px;
+      width: 157px;
+      height: auto; }
+    .menu__kitchen {
+      padding: 10px;
+      width: 153px;
+      height: auto; }
+    .menu__contacts {
+      padding: 10px;
+      width: 153px;
+      height: auto; }
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg); }
   #menu__toggle:checked ~ .menu__btn > span::before {
@@ -345,7 +472,27 @@ body {
     transform: rotate(90deg); }
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
-    left: 0; } }
+    left: 0; }
+  .border {
+    top: 148px;
+    left: 59px; }
+  .nameBg {
+    top: 148px;
+    left: 93px; }
+  .aboutBg {
+    top: 270px;
+    left: 81px; }
+  .sizeBg {
+    top: 285px;
+    left: 372px; } }
 
+@font-face {
+    font-family: 'Lato';
+    src: url(98359c0f31f86063c74251759e75820a.ttf) format('true-type');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(3417e031027febbdf0aec8d3860307cc.ttf) format('true-type');
+}
 
 /*# sourceMappingURL=main.css.map*/

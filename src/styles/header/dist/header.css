@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 414px) {
   .header {
-    width: 662px;
+    width: 535px;
   }
 
   .logo__name {
@@ -84,6 +84,7 @@
   .header {
     flex-direction: column;
     align-items: center;
+    width: 769px;
   }
 
   .logo__text {

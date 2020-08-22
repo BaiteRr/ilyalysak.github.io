@@ -168,23 +168,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.sass */ "./styles/main.sass");
 /* harmony import */ var _styles_main_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_sass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_fonts_ProximaNova_ttf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/fonts/ProximaNova.ttf */ "./styles/fonts/ProximaNova.ttf");
+/* harmony import */ var _styles_fonts_ProximaNova_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/fonts/ProximaNova.css */ "./styles/fonts/ProximaNova.css");
+/* harmony import */ var _styles_fonts_ProximaNova_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_ProximaNova_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_fonts_IntroRust_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/fonts/IntroRust.css */ "./styles/fonts/IntroRust.css");
+/* harmony import */ var _styles_fonts_IntroRust_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_IntroRust_css__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 
 /***/ }),
 
-/***/ "./styles/fonts/ProximaNova.ttf":
-/*!**************************************!*\
-  !*** ./styles/fonts/ProximaNova.ttf ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./styles/fonts/IntroRust.css":
+/*!************************************!*\
+  !*** ./styles/fonts/IntroRust.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "98359c0f31f86063c74251759e75820a.ttf");
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
+/***/ "./styles/fonts/ProximaNova.css":
+/*!**************************************!*\
+  !*** ./styles/fonts/ProximaNova.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
 
 /***/ }),
 
