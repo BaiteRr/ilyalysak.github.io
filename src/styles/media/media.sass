@@ -1,0 +1,323 @@
+@media screen and (max-width: 768px) 
+    .header
+        flex-direction: column
+        align-items: center
+        width: 384px
+        height: 107px
+    .logo
+        display: flex
+        align-items: center
+        justify-content: space-around
+        width: 319px
+        margin-left: 66px
+        &__name
+            width: 89px
+            font-size: 22px
+            height: 12px
+            margin: 0
+        &__text
+            margin: 0
+            width: 217px
+            font-size: 15px
+
+    .phone
+        align-items: center
+        justify-content: center
+        width: 319px
+        margin-left: 66px
+        &__number
+            margin: 0
+            width: 299px
+            font-size: 30px
+            height: 17px
+        &__button
+            height: 40px
+            font-size: 14px
+            margin-right: 15px
+
+    .container
+        background: url("../img/ipadbed.png")
+        height: 1024px
+        width: 384px
+        background-repeat: no-repeat
+
+
+    #menu__toggle 
+        opacity: 0
+
+    .menu   
+        &__main
+            margin: 0       
+        &__сhildren
+            margin: 0         
+        &__bedroom
+            margin: 0        
+        &__kitchen
+            margin: 0          
+        &__contacts
+            margin: 0  
+
+    .menu__btn 
+        z-index: 2
+        display: flex
+        align-items: center
+        position: absolute
+        top: 40px
+        left: 20px
+        width: 26px
+        height: 26px
+        cursor: pointer
+  
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after 
+        display: block
+        position: absolute
+        width: 100%
+        height: 2px
+        background-color: #616161
+  
+    .menu__btn > span::before 
+        content: ''
+        top: -8px
+  
+    .menu__btn > span::after 
+        content: ''
+        top: 8px
+
+
+    .menu__box 
+        z-index: 1
+        display: block
+        position: fixed
+        visibility: hidden
+        top: 0
+        left: -100%
+        width: 180px
+        height: 100%
+        margin: 0
+        padding: 80px 0
+        list-style: none
+        text-align: center
+        background-color: #ECEFF1
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
+  
+
+    .menu__item            
+        display: block
+        padding: 0 0 0 0
+        color: #333
+        font-family: 'ProximaNova', sans-serif
+        font-size: 15px
+        font-weight: 600
+        text-decoration: none
+
+    .menu   
+        opacity: 0.9
+        &__main
+            margin-top: 33px
+            padding: 25px 0 25px 0
+            width: 153px
+            height: auto
+
+        
+        &__сhildren
+            padding: 10px
+            width: 153px
+            height: auto
+        
+        &__bedroom
+            padding: 10px
+            width: 157px
+            height: auto
+       
+        &__kitchen
+            padding: 10px
+            width: 153px
+            height: auto
+        
+        &__contacts
+            padding: 10px
+            width: 153px
+            height: auto
+        
+
+
+  
+    #menu__toggle:checked ~ .menu__btn > span 
+        transform: rotate(45deg)
+
+    #menu__toggle:checked ~ .menu__btn > span::before 
+        top: 0
+        transform: rotate(0)
+
+    #menu__toggle:checked ~ .menu__btn > span::after 
+        top: 0
+        transform: rotate(90deg)
+
+    #menu__toggle:checked ~ .menu__box 
+        visibility: visible
+        left: 0
+
+    .border
+        top: 148px
+        left: 7px
+        height: 134px
+        clip-path: polygon(22% 0, 20% 0, 6% 100%, 8% 100%)
+
+    .nameBg
+        width: 365px
+        height: 66px
+        top: 148px
+        left: 40px
+        &__name
+            font-size: 45.5px
+            width: 276px
+            height: 67px
+
+    .aboutBg        
+        top: 225px
+        left: 29px       
+        width: 214px
+        height: 56px        
+        clip-path: polygon(5% 0, 78% 0%, 75% 100%, 0% 100%)
+        &__about
+            width: 164px
+            height: 52px
+            font-size: 22px
+        &__border
+            margin: -5px 0 0 9px
+            width: 141px
+
+    .sizeBg        
+        top: 231px
+        left: 198px
+        width: 132px
+        height: 40px
+        .size
+            width: 80px
+            margin-left: 7px
+            &__size
+                width: 50px
+                height: 52px
+                margin-top: 24px
+                font-size: 23px
+    
+
+@media screen and (max-width: 414px) 
+
+    .container
+        background-image: url("../img/iphone6.png")
+        background-repeat: no-repeat
+
+    .menu__btn 
+        width: 20px
+
+    .menu__box      
+        width: 208px 
+  
+
+    .menu   
+        &__main
+            margin-top: 33px
+            padding: 25px 0 25px 0
+                 
+        &__сhildren
+            margin: 0 auto
+            padding: 10px
+                  
+        &__bedroom
+            margin: 0 auto
+            padding: 10px
+                  
+        &__kitchen
+            margin: 0 auto
+            padding: 10px
+                  
+        &__contacts
+            margin: 0 auto
+            padding: 10px
+
+
+    .header
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        width: 208px
+        height: 180px
+
+    .logo
+        display: flex
+        flex-direction: column
+        width: 208px
+        align-items: center
+        margin: 0
+        &__name
+            height: 26px
+            width: 140px
+        &__text
+            margin-left: -7px
+            display: flex
+            flex-wrap: wrap
+            width: 134px
+            font-size: 13px
+            height: auto
+
+    .phone
+        display: flex
+        flex-direction: column
+        align-items: baseline
+        width: 208px
+        &__number
+            height: 15px
+            font-size: 17px
+            
+        &__button
+            height: 28px
+            font-size: 12px
+            width: 110px
+            margin-left: 0
+            
+
+
+    .border
+        display: none
+
+    .nameBg       
+        width: 150px
+        height: 25px
+        top: 203px        
+        &__name
+            width: 111px
+            height: 25px
+            font-size: 20px
+            
+
+    .aboutBg  
+        top: 236px
+        left: 15px
+        width: 160px
+        height: 33px        
+        &__about
+            width: 123px
+            height: 28px
+            font-size: 17px
+        &__border
+            margin: -4px 0 0 9px
+            width: 98px
+
+    .sizeBg        
+        top: 275px
+        left: 47px
+        width: 117px
+        height: 23px
+        .size
+            height: 13px
+            &__from
+                font-size: 11px
+                margin-top: 17px
+            &__size
+                margin-top: 37px
+                font-size: 17px
+            &__area
+                font-size: 11px
