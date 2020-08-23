@@ -75,15 +75,15 @@ const plugins = () => {
             }
         }),
         new CleanWebpackPlugin(),
-        // new CopyPlugin({
-        //     patterns: [
-        //         {
-        //             from: path.resolve(__dirname, './src/img'),
-        //             to: path.resolve(__dirname, './docs/img')
-        //         },
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: path.resolve(__dirname, './src/img/favicon.ico'),
+                    to: path.resolve(__dirname, './docs')
+                },
 
-        //     ]
-        // }),
+            ]
+        }),
         new MiniCssExtractPlugin({
             filename: filename('css')
         })
