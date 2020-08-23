@@ -883,8 +883,8 @@ body {
     .print__title {
       width: 100% !important; }
     .print__subtitle {
-      width: 100% !important;
-      margin: 22px 0 0 0 !important; }
+      width: 93% !important;
+      margin: 22px 0 0 10px !important; }
   .any {
     flex-direction: column !important;
     width: 100% !important; }
@@ -893,8 +893,8 @@ body {
     .any__title {
       width: 100% !important; }
     .any__subtitle {
-      width: 100% !important;
-      margin: 22px 0 0 0 !important; }
+      width: 93% !important;
+      margin: 22px 0 0 10px !important; }
   .made {
     flex-direction: column !important;
     width: 100% !important; }
@@ -903,8 +903,8 @@ body {
     .made__title {
       width: 100% !important; }
     .made__subtitle {
-      width: 100% !important;
-      margin: 22px 0 0 0 !important; }
+      width: 93% !important;
+      margin: 22px 0 0 10px !important; }
   .unintermediated {
     flex-direction: column !important;
     width: 100% !important; }
@@ -913,8 +913,9 @@ body {
     .unintermediated__title {
       width: 100% !important; }
     .unintermediated__subtitle {
-      width: 100% !important;
-      margin: 22px 0 0 0 !important; }
+      width: 93% !important;
+      margin: 22px 0 60px 10px !important;
+      margin-bottom: 20px; }
   .slider .slick-prev {
     left: 20px !important;
     top: 54% !important; }
