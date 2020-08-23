@@ -1,0 +1,50 @@
+.slider
+    position: relative
+    .slick-arrow
+        position: absolute
+        z-index: 10
+        font-size: 0  
+        width: 30px
+        height: 43px
+    .slick-prev
+        background: url('../img/arrow.png') no-repeat
+        left: 390px
+        top: 54.5%
+        border: none
+        
+    .slick-next
+        background: url('../img/arrow.png') no-repeat
+        left: 600px     
+        top: 54.1%
+        border: none
+        transform: rotate(180deg) 
+    .slick-dots
+        display: flex
+        justify-content: start
+        padding-top: 30px
+        position: absolute
+        top: 410px
+        left: 451px
+
+        li
+            list-style: none
+            margin: 0 10px
+            button  
+                font-size: 0
+                width: 9px
+                height: 9px
+                background-color: transparent
+                border-radius: 50%
+                border: 1px solid white
+        .slick-active
+            button
+                background-color: #fff
+
+.slick-list 
+    overflow: hidden
+
+.slick-track
+    display: flex
+
+
+
