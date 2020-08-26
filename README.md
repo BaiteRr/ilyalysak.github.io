@@ -11,3 +11,5 @@ git remote add origin https://github.com/BaiteRr/ilyalysak.github.io.git
 git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+Change name to next_proj
